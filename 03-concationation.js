@@ -86,3 +86,7 @@ console.log("First because in the sentence with search : ", sentence.search("bec
 //trim method
 let trimCompany = "       Coding Academy          ";
 console.log("Remove whitespaces from variable:", trimCompany.trim());
+
+//startsWith() and endsWith() 
+console.log("Empieza por Coding: ", company.startsWith("Coding"));
+console.log("Termina por Academy: ", company.endsWith("Academy"));
