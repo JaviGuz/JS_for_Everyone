@@ -73,3 +73,12 @@ console.log(charCompany);
 
 let unicodeChar = company.charCodeAt(7);
 console.log("unicode of A: ", unicodeChar);
+
+//indexOf method
+console.log("First character c: ", company.indexOf("c"));
+console.log("Last character c: ", company.lastIndexOf("c"));
+
+//indexOf, lastIndexOf and search methods
+console.log("First because in the sentence with indexOf: ", sentence.indexOf("because"));
+console.log("First because in the sentence with lastIndexOf: ", sentence.lastIndexOf("because", 38));
+console.log("First because in the sentence with search : ", sentence.search("because"));
