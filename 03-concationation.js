@@ -65,3 +65,11 @@ for (let index = 0; index < arrayCompanies.length; index++) {
 let replaceCompany = company.replace("Coding", "Microsoft");
 console.log("Replace Company: ", replaceCompany);
 
+//CharAt method
+let charCompany = company.charAt(10);
+console.log(charCompany);
+
+//CharCodeAt method (to show unicode of a character)
+
+let unicodeChar = company.charCodeAt(7);
+console.log("unicode of A: ", unicodeChar);
