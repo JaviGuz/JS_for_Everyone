@@ -19,7 +19,7 @@ console.log(fullName);
 // console.log(personInfoTwo);
 
 // New code
-let company = "Coding Academy"
+let company = "Coding Academy";
 console.log(company);
 console.log("El tamaño del string es:", company.length);
 
@@ -33,3 +33,11 @@ for (i in Data) {
 }
 console.log("All the strings of an object to capital letters: ", upperStrings);
 console.log("All the strings of an object to lowercase letters: ", lowerStrings);
+
+let substring = company.substring(7, 15);
+console.log("Substring de variable company: ", substring);
+
+let sentence = 'You cannot end a sentence with because because because is a conjunction';
+let subsentence = (sentence.substr(0, 25)+ sentence.substr(54, 17));
+console.log("sentence variable without because because because " + subsentence);
+
