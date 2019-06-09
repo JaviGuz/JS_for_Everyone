@@ -19,7 +19,7 @@ console.log(fullName);
 // console.log(personInfoTwo);
 
 // New code
-let company = "Coding Academy";
+let company = "Coding Acadwemy";
 console.log(company);
 console.log("El tamaño del string es:", company.length);
 
@@ -40,4 +40,9 @@ console.log("Substring de variable company: ", substring);
 let sentence = 'You cannot end a sentence with because because because is a conjunction';
 let subsentence = (sentence.substr(0, 25)+ sentence.substr(54, 17));
 console.log("sentence variable without because because because " + subsentence);
+
+if (company.includes("Academy")){
+  console.log("Contain Academy word");
+} else console.log("Dont contain Academy word");
+
 
