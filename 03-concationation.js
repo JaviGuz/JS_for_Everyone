@@ -90,3 +90,10 @@ console.log("Remove whitespaces from variable:", trimCompany.trim());
 //startsWith() and endsWith() 
 console.log("Empieza por Coding: ", company.startsWith("Coding"));
 console.log("Termina por Academy: ", company.endsWith("Academy"));
+
+//match() method
+let matchCompany = company.match(/c/gi);
+let matchSentence = sentence.match(/because/gi);
+console.log("Todas las c en company:", matchCompany);
+console.log("Todos los because en sentence:", matchSentence);
+
