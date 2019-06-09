@@ -82,3 +82,7 @@ console.log("Last character c: ", company.lastIndexOf("c"));
 console.log("First because in the sentence with indexOf: ", sentence.indexOf("because"));
 console.log("First because in the sentence with lastIndexOf: ", sentence.lastIndexOf("because", 38));
 console.log("First because in the sentence with search : ", sentence.search("because"));
+
+//trim method
+let trimCompany = "       Coding Academy          ";
+console.log("Remove whitespaces from variable:", trimCompany.trim());
