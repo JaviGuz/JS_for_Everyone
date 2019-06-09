@@ -61,3 +61,7 @@ for (let index = 0; index < arrayCompanies.length; index++) {
   console.log(element);  
 };
 
+//replace method
+let replaceCompany = company.replace("Coding", "Microsoft");
+console.log("Replace Company: ", replaceCompany);
+
