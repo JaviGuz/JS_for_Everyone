@@ -97,3 +97,23 @@ let matchSentence = sentence.match(/because/gi);
 console.log("Todas las c en company:", matchCompany);
 console.log("Todos los because en sentence:", matchSentence);
 
+//Person income
+
+let Person = {
+  salary: 5000,
+  bonus: 10000,
+  courses: 15000
+};
+
+function annualIncome(salary, bonus, course){
+  mySalary = salary;
+  myBonus = bonus;
+  myCourses = course;
+  Income = (mySalary * 12) + myBonus + (myCourses * 12);
+  
+  return Income;
+};
+
+var myIncome = annualIncome(Person.salary, Person.bonus, Person.courses);
+
+console.log("Salario de la persona: ", myIncome);
