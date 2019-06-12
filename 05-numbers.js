@@ -26,3 +26,13 @@ console.log ("4 === '4' : ", 4 === '4');
 
 let firstName;
 console.log(firstName)
+
+console.log(
+    `The boiling point of water is ${boilingPoint} oC.\nHuman body temperatue is ${bodyTemp} oC.\nThe gravity of earth is ${gravity} m / s2.`
+);
+
+
+const ampersand = 4 > 3 && 10 < 5; // AND Operator, true and false -> false
+const pipe = 4 > 3 || 10 < 5; //OR Operator, true and false -> true
+console.log('4 > 3 && 10 < 5 :', ampersand);
+console.log('4 > 3 || 10 < 5 :', pipe);
