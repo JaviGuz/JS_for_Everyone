@@ -36,3 +36,15 @@ const ampersand = 4 > 3 && 10 < 5; // AND Operator, true and false -> false
 const pipe = 4 > 3 || 10 < 5; //OR Operator, true and false -> true
 console.log('4 > 3 && 10 < 5 :', ampersand);
 console.log('4 > 3 || 10 < 5 :', pipe);
+console.log('******* logical operators *******');
+//Operations with logical operators
+console.log('4 > 3 && 10 < 12',4 > 3 && 10 < 12);
+console.log('4 > 3 && 10 > 12',4 > 3 && 10 > 12);
+console.log('4 > 3 || 10 < 12',4 > 3 || 10 < 12);
+console.log('4 > 3 || 10 > 12',4 > 3 || 10 > 12);
+console.log('!(4 > 3)',!(4 > 3));
+console.log('!(4 < 3)',!(4 < 3));
+console.log('!(false)',!(false));
+console.log('!(4 > 3 && 10 < 12)', !(4 > 3 && 10 < 12));
+console.log('!(4 > 3 && 10 >12));', !(4 > 3 && 10 > 12));
+console.log("!(4 === '4')",!(4 === '4'));
