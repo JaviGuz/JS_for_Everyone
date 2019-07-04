@@ -1,3 +1,5 @@
+/* Course funcionality
+
 // function without parameters
 function addTwoNumbers() {
   var numOne = 10;
@@ -6,7 +8,7 @@ function addTwoNumbers() {
   console.log(sum);
 }
 addTwoNumbers(); // function has to be called to be executed
-// Function without parater doesn' take input, so lets make a parameter with parameter
+// Function without parameter doesn' take input, so lets make a parameter with parameter
 function sumTwoNumbers(numOne, numTwo) {
   var sum = numOne + numTwo;
   console.log(sum);
@@ -58,7 +60,30 @@ function sumOfEvensAndOdds() {
   //return `The sum of all evens is ${sumOfEvens}. And the sum of all odds is ${sumOfOdds}`;
 }
 
-console.log(sumOfEvensAndOdds());
+console.log(sumOfEvensAndOdds());  */
+
+/******* Personal Code **********/
+
+const square = n => n * n;
+console.log(square(10));
+
+function fullName() {
+  const firstName = 'Javier';
+  const lastName = 'Guzman Rosino';
+  const fullName = firstName + ' ' + lastName;
+
+  return fullName;
+}
+
+console.log(fullName());
+
+function fullName2(firstName, lastName){
+  var fullName = firstName + ' ' + lastName;
+  console.log(fullName);
+};
+
+fullName2('Pepe', 'Villuela');
+
 
 
 
