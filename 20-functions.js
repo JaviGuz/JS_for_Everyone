@@ -62,6 +62,26 @@ function sumOfEvensAndOdds() {
 
 console.log(sumOfEvensAndOdds());  */
 
+
+//Declaration function
+function square(n) {
+  return n * n;
+}
+console.log(square(2)); // -> 4
+
+//Arrow Function
+const square = n => {
+  return n * n;
+};
+console.log(square(2)); 
+
+// Function expression
+const square = function (n) {
+  return n * n;
+};
+console.log(square(2)); // -> 4
+
+
 /******* Personal Code **********/
 
 const square = n => n * n;
