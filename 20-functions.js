@@ -63,23 +63,23 @@ function sumOfEvensAndOdds() {
 console.log(sumOfEvensAndOdds());  */
 
 
-//Declaration function
-function square(n) {
-  return n * n;
-}
-console.log(square(2)); // -> 4
+// //Declaration function
+// function square(n) {
+//   return n * n;
+// }
+// console.log(square(2)); // -> 4
 
-//Arrow Function
-const square = n => {
-  return n * n;
-};
-console.log(square(2)); 
+// //Arrow Function
+// const square = n => {
+//   return n * n;
+// };
+// console.log(square(2)); 
 
-// Function expression
-const square = function (n) {
-  return n * n;
-};
-console.log(square(2)); // -> 4
+// // Function expression
+// const square = function (n) {
+//   return n * n;
+// };
+// console.log(square(2)); // -> 4
 
 
 /******* Personal Code **********/
@@ -103,6 +103,12 @@ function fullName2(firstName, lastName){
 };
 
 fullName2('Pepe', 'Villuela');
+
+function randomUserIp(){
+  var ip = (Math.floor(Math.random() * 255) + 1) + "." + (Math.floor(Math.random() * 255) + 0) + "." + (Math.floor(Math.random() * 255) + 0) + "." + (Math.floor(Math.random() * 255) + 0);
+  return ip;
+};
+console.log("Random IP:", randomUserIp());
 
 
 
