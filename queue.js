@@ -4,7 +4,7 @@ function addQueue() {
     number = Number(document.getElementById('inputQueue').value);
     if (isNaN(number)) {
         console.log("No se ha podido añadir ya que no es un número");
-    } else if (number.length == null) {
+    } else if (number.length === null) {
         alert("Añade un elemento en el input")
     } else {
         item.unshift(number);
@@ -13,7 +13,7 @@ function addQueue() {
 }
 
 function removeQueue() {
-    if (item.length == 0) {
+    if (item.length === 0) {
         console.log("No se puede eliminar más elementos");
     } else {
         item.pop();

@@ -4,7 +4,7 @@ function addStack() {
     number = Number(document.getElementById('inputStack').value);
     if (isNaN(number)) {
         console.log("No se ha podido añadir ya que no es un número");
-    } else if (number.length == null) {
+    } else if (number.length === null) {
         alert("Añade un elemento en el input")
     } else {
         pila.unshift(number);
